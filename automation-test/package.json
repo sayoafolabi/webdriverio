@@ -1,0 +1,32 @@
+{
+  "name": "automation-test",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "wdio wdio.conf.js;"
+  },
+  "dependencies": {
+    "babel-preset-env": "~1.7.0",
+    "babel-register": "~6.26.0",
+    "express": "^4.17.1",
+    "selenium-standalone": "^6.16.0",
+    "wdio-cucumber-framework": "~2.2.0",
+    "wdio-phantomjs-service": "~0.2.2",
+    "wdio-selenium-standalone-service": "~0.0.9",
+    "wdio-spec-reporter": "~0.1.2"
+  },
+  "devDependencies": {
+    "babel-core": "~6.26.3",
+    "babel-polyfill": "~6.26.0",
+    "chai": "^4.2.0",
+    "chai-webdriverio": "^1.0.0",
+    "cucumber": "^6.0.2",
+    "eslint": "~5.0.0",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "~2.13.0",
+    "webdriverio": "^4.13.2"
+  },
+  "description": "Webdriver.io + CucumberJS automation test ====================",
+  "main": "wdio.conf.js",
+  "author": "Sayo Afolabi",
+  "license": "ISC"
+}
